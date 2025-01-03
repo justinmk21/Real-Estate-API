@@ -61,12 +61,12 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-#CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 # For production, specify allowed origins:
-CORS_ALLOWED_ORIGINS = [
-     "https://justinmk21.github.io",
- ]
+#CORS_ALLOWED_ORIGINS = [
+#     "https://justinmk21.github.io",
+# ]
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
