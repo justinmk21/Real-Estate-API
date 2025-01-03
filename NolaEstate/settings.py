@@ -61,7 +61,12 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+#CORS_ALLOW_ALL_ORIGINS = True
+
+# For production, specify allowed origins:
+CORS_ALLOWED_ORIGINS = [
+     "https://github.com/justinmk21/Real-Estate-App-Nola.git",
+ ]
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
