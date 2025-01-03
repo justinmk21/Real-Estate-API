@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--db0#f2is@t#&_6onuq$5e$@tu2le@$vqf65y7ahg*e0n0r@i0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['real-estate-api-ti97.onrender.com', 'localhost', '127.0.0.1']
 
 import os
 from dotenv import load_dotenv
