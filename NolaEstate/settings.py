@@ -65,7 +65,7 @@ INSTALLED_APPS = [
 
 # For production, specify allowed origins:
 CORS_ALLOWED_ORIGINS = [
-     "https://justinmk21.github.io/Real-Estate-App-Nola/",
+     "https://justinmk21.github.io",
  ]
 
 MIDDLEWARE = [
